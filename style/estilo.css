@@ -1,1 +1,34 @@
-//Estilo css 
+@font-face {
+    font-family: Ourland;
+    src: url(../media/Ourland.ttf);
+}
+@font-face {
+    font-family: Josefin;
+    src: url(../media/JosefinSans-VariableFont_wght.ttf);
+}
+h1{
+    font-family:Ourland;
+    font-size: 70px;
+}
+.texto{
+    font-family: Josefin;
+}
+#bodyinicio{
+    background-image:url("../media/fondopreguntados180.jpg");
+}
+#jugadores{
+    background-color: #56D3F8;
+    width: 60%;
+    border-radius: 20px;
+}
+#botoninicio{
+    background-color: #7CE577;
+    border:none;
+    width: 100px;
+    height: 35px;
+    border-radius: 30px;
+}
+#botoninicio:hover {
+    background-color: #FF66B3;
+  }
+  

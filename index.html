@@ -5,23 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preguntados2</title>
     <link rel="icon" href="./media/icono.png" type="image/x.png">
+    <link rel="stylesheet" href="./style/estilo.css">
 </head>
-<body>
+<body id="bodyinicio">
     <center><h1>Preguntados Ver.Curso Web 2023</h1></center>
-    <br><br>
-    <center><div>
-        <form>
-            <label>
+    <br>
+    <center><div id="jugadores">
+        <form >
+            <br><br>
+            <label class="texto">
                 Jugador 1:
-                <input type="text" maxlength="10"/>
-            </label>
-            <label>
-                Jugador 2:
-                <input type="text" maxlength="10"/>
+                <br><br>
+                <input type="text" maxlength="10" required/>
             </label>
             <br><br>
-            <button type="submit">Comenzar</button>
-            <button type="reset">Borrar</button>
+            <label class="texto">
+                Jugador 2:
+                <br><br>
+                <input type="text" maxlength="10" required/>
+            </label>
+            <br><br>
+            <button class="texto" id="botoninicio" type="submit">Comenzar</button>
+            <button  class="texto" id="botoninicio" type="reset">Borrar</button>
+            <br><br>
+            <img src="./media/Mascotin.png">
         </form>
     </div></center>
 </body>
